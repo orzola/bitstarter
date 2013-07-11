@@ -7,7 +7,7 @@ var HTMLFILE_DEFAULT = "index.html";
 var CHECKSFILE_DEFAULT = "checks.json";
 var sys = require('util'); 
 var rest = require('restler');
-var URL_DEFAULT = "";
+var URL_DEFAULT = "http://orzola-bitstarter.herokuapp.com";
 var assertUrlExists = function (val) {return val.toString();}; 
 
   var callThis = function(result) {
